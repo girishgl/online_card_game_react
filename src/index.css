@@ -934,6 +934,13 @@ button:active,
     text-decoration: none;
 }
 
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
 .button::-moz-focus-inner,
 a.button::-moz-focus-inner,
 button::-moz-focus-inner,
